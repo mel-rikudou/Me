@@ -1,0 +1,23 @@
+body, h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat", sans-serif;
+}
+.bgimg{
+    /*Bezugspunkt zur Ausrichtung ist der Mittelpunkt der Seite*/
+    background-position: center;
+    /*keine wiederholte Anzeige des Bildes*/
+    background-repeat: no-repeat;
+    /*passt die kleinere Seite dem Anzeigebereich an*/
+    background-size: cover;
+    background-image: url('/image/me.jpg');
+    min-height: 100%;
+}
+.sidebar{
+    display: none;
+    padding-top: 150px;
+    right: 0;
+    z-index: 2;
+}
+
+.sidebarImage{
+    width: 40%;
+}
